@@ -8,17 +8,24 @@
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
     <style>
         *{
-            box-sizing:border-box;
+            box-sizing:border;
             margin:0;
             border:none;
             padding:0;
         }
+        .wrap{
+            width:380px;
+            margin:0 auto;
+        }
     </style>
 </head>
 <body>
-    <img src="./best.jpg" alt="베스트" usemap="#workmap">
-    <map name="workmap">
+    <div class="wrap">
+        <img src="./best.jpg" alt="베스트" usemap="#best">
+        <map name="best">
             <area shpe="rect" coords="196px,580px,356px,628px" href="./login.html" alt="로그인으로 이동">
-    </map>     
+        </map>
+
+    </div>
 </body>
 </html>

@@ -8,17 +8,22 @@
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
     <style>
         *{
-            box-sizing:border-box;
+            box-sizing:border;
             margin:0;
             border:none;
             padding:0;
         }
+        .wrap{
+            width:380px;
+            margin:0 auto;
+        }
     </style>
 </head>
 <body>
-    <img src="./index.jpg" alt="시작페이지" usemap="#workmap">
-    <map name="workmap">
-            <area shpe="rect" coords="110px,320px,270px,478px" href="./best.html" alt="베스트로 이동">
-    </map>     
+    <div class="wrap">
+        <a href="./best.html">
+            <img src="./index.jpg" alt="시작페이지">
+        </a>
+    </div>    
 </body>
 </html>
